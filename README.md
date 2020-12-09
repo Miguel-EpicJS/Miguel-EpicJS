@@ -1,16 +1,18 @@
-### Hi there 👋
+### Hi there 👋, my name is Miguel and i am from Brazil
 
-<!--
-**Miguel-EpicJS/Miguel-EpicJS** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![](https://img.shields.io/badge/Learning-C++-informational) ![](https://img.shields.io/badge/Learning-Python-informational) ![](https://img.shields.io/badge/Learning-TS-informational) ![](https://img.shields.io/badge/Learning-JS-informational) ![](https://img.shields.io/badge/Learning-EN-informational)
+ 
+[![Miguel's github stats](https://github-readme-stats.vercel.app/api?username=Miguel-EpicJS&theme=merko)](https://github.com/Miguel-EpicJS/github-readme-stats)
 
-Here are some ideas to get you started:
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-EpicJS&theme=merko)](https://github.com/Miguel-EpicJS/github-readme-stats)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+- 🌱 I’m currently learning C++, Python, TypeScript(Deno) and JavaScript(VueJS and node) and English
+
+- 🤔 I’m looking for help with anything related to programming
+
+- 💬 Ask me about anything, I want to help you
+
+- 📫 How to reach me: my [youtube's channel](https://www.youtube.com/channel/UCIVc-ZpdFDqAxGFg0XKnJ9g?view_as=subscriber)
+
+- ⚡ Fun fact: I love Rpg and my wish is make a big rpg game ;)
