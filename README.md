@@ -1,6 +1,6 @@
 ### Hi there 👋, my name is Miguel and i am from Brazil
 
-![](https://img.shields.io/badge/Learning-C++-informational) ![](https://img.shields.io/badge/Learning-Python-informational) ![](https://img.shields.io/badge/Learning-TS-informational) ![](https://img.shields.io/badge/Learning-JS-informational) ![](https://img.shields.io/badge/Learning-EN-informational)
+![](https://img.shields.io/badge/Learning-C++-informational) ![](https://img.shields.io/badge/Learning-Python-informational) ![](https://img.shields.io/badge/Learning-TS-informational) ![](https://img.shields.io/badge/Learning-Elixir-informational) ![](https://img.shields.io/badge/Learning-JS-informational) ![](https://img.shields.io/badge/Learning-EN-informational)
  
 [![Miguel's github stats](https://github-readme-stats.vercel.app/api?username=Miguel-EpicJS&theme=merko)](https://github.com/Miguel-EpicJS/github-readme-stats)
 
