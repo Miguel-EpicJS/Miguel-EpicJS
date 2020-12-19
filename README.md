@@ -7,7 +7,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-EpicJS&theme=merko)](https://github.com/Miguel-EpicJS/github-readme-stats)
 
 
-- 🌱 I’m currently learning C++, Python, TypeScript(Deno) and JavaScript(VueJS and node) and English
+- 🌱 I’m currently learning C++, Elixir, TypeScript(Deno) and JavaScript(VueJS and node) and English
 
 - 🤔 I’m looking for help with anything related to programming
 
