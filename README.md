@@ -5,7 +5,7 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
 [![Miguel's github stats](https://github-readme-stats.vercel.app/api?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
 
-- 🌱 I’m currently learning C++, Elixir, TypeScript(Deno), JavaScript(VueJS and node), English and some of AI
+- 🌱 I’m currently learning C++, C#, Python, JavaScript, English and a little of robotics with sBotics
 
 - 🤔 I’m looking for help with anything related to programming
 
@@ -14,3 +14,5 @@
 - 📫 How to reach me: my [youtube's channel](https://www.youtube.com/channel/UCIVc-ZpdFDqAxGFg0XKnJ9g?view_as=subscriber)
 
 - ⚡ Fun fact: I love Rpg and my wish is make a big rpg game ;)
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Miguel-EpicJS&theme=dracula)](https://git.io/streak-stats)
