@@ -13,6 +13,6 @@
 
 - 📫 How to reach me: my [youtube's channel](https://www.youtube.com/channel/UCIVc-ZpdFDqAxGFg0XKnJ9g?view_as=subscriber)
 
-- ⚡ Fun fact: I love Rpg and my wish is make a big rpg game ;)
+- ☁️ Dreams: My dream is to make a super VR RPG game mapping the universe in real scale for a playable map in the game.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Miguel-EpicJS&theme=dracula)](https://git.io/streak-stats)
