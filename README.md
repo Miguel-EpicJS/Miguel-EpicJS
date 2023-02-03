@@ -4,6 +4,8 @@
  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
 [![Miguel's github stats](https://github-readme-stats.vercel.app/api?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
+[![Views](https://komarev.com/ghpvc/?username=Miguel-EpicJS&color=050f2c)
+
 
 - 🌱 I’m currently learning C++, C#, Python, JavaScript, English and a little of robotics with sBotics
 
