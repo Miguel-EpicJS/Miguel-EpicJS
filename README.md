@@ -18,4 +18,4 @@
 
 - ☁️ Dreams: My dream is to make a super VR RPG game mapping the universe in real scale for a playable map in the game.
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Miguel-EpicJS&theme=dracula)](https://git.io/streak-stats)
+
