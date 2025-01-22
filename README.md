@@ -8,9 +8,7 @@
 ![Views](https://komarev.com/ghpvc/?username=Miguel-EpicJS&color=050f2c)
 
 
-- 🌱 I’m currently learning C++, C#, Python, JavaScript, English and a little of robotics with sBotics
-
-- 🤔 I’m looking for help with anything related to programming
+- 🌱 I am currently deepening my knowledge in Python, JavaScript, QA Automation, NestJS, DDD and Clean Architecture
 
 - 💬 Ask me about anything, I want to help you
 
