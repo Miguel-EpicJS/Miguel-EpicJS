@@ -1,17 +1,35 @@
-### Hi there 👋, my name is Miguel and i am from Brazil
- 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
-[![Miguel's github stats](https://github-readme-stats.vercel.app/api?username=Miguel-EpicJS&theme=dracula)](https://github.com/Miguel-EpicJS/github-readme-stats)
+# Miguel Martinez
 
-![Views](https://komarev.com/ghpvc/?username=Miguel-EpicJS&color=050f2c)
+## AI Engineer building useful systems around LLMs
+
+I design and build AI agents, retrieval workflows, and integrations that connect models to real tools and business data.
+
+My current focus:
+
+- **AI agents:** tool calling, multi-step workflows, MCP, and orchestration
+- **RAG:** retrieval quality, vector stores, evaluation, and grounded generation
+- **Backend systems:** Python, TypeScript, Node.js, APIs, and PostgreSQL
+- **Local AI:** privacy-first inference with Qwen, llama.cpp, and Agno
+- **Delivery:** testing, observability, Docker, AWS, and pragmatic MVPs
+
+## Featured project
+
+### [Ash CLI](https://github.com/Miguel-EpicJS/ash-cli)
+
+A local-first terminal AI assistant for developers. Ash combines Agno, Qwen, and llama.cpp with streaming output, persistent sessions, shell completions, command safety, and local usage metrics.
+
+```text
+local model -> agent -> terminal UI -> safe command workflow
+```
+
+## More about me
+
+- AI Tech Lead at Chatvolt
+- Built MCP infrastructure and enterprise integrations
+- Mentor and technical reference for AI agent development
+- Based in Sao Jose dos Campos, Brazil
+- Portuguese native, English C1
 
 
-- 🌱 I am currently deepening my knowledge in Python, JavaScript, QA Automation, NestJS, DDD and Clean Architecture
 
-- 💬 Ask me about anything, I want to help you
-
-- 📫 How to reach me: my [youtube's channel](https://www.youtube.com/channel/UCIVc-ZpdFDqAxGFg0XKnJ9g?view_as=subscriber)
-
-- ☁️ Dreams: My dream is to make a super VR RPG game mapping the universe in real scale for a playable map in the game.
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Miguel-EpicJS&theme=dracula)](https://git.io/streak-stats)
+I write about RAG, AI agents, local LLMs, and the engineering decisions behind production systems.
