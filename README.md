@@ -2,7 +2,7 @@
 
 ## AI Engineer building useful systems around LLMs
 
-I design and build AI agents, retrieval workflows, and integrations that connect models to real tools and business data.
+AI Engineer at GSW Soluções Integradas. I design and build AI agents, retrieval workflows, and integrations that connect models to real tools and business data.
 
 My current focus:
 
@@ -24,7 +24,8 @@ local model -> agent -> terminal UI -> safe command workflow
 
 ## More about me
 
-- AI Tech Lead at Chatvolt
+- AI Engineer at GSW Soluções Integradas
+- Previously AI Engineer at Chatvolt
 - Built MCP infrastructure and enterprise integrations
 - Mentor and technical reference for AI agent development
 - Based in Sao Jose dos Campos, Brazil
