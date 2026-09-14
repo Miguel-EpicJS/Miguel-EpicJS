@@ -14,6 +14,15 @@ My current focus:
 
 ## Featured project
 
+### [RAG Workbench](https://github.com/Miguel-EpicJS/rag-workbench)
+
+An inspectable workbench for chunking, retrieval, evaluation, and grounded generation. It makes
+the evidence behind a RAG answer visible before adding more advanced retrieval techniques.
+
+```text
+documents -> chunks -> retrieval -> evidence -> grounded answer
+```
+
 ### [Ash CLI](https://github.com/Miguel-EpicJS/ash-cli)
 
 A local-first terminal AI assistant for developers. Ash combines Agno, Qwen, and llama.cpp with streaming output, persistent sessions, shell completions, command safety, and local usage metrics.
