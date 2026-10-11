@@ -1370,3 +1370,73 @@ h2 {
     font-size: 14px;
   }
 }
+
+/* Hero proportion adjustment */
+.hero {
+  grid-template-columns: minmax(0, .86fr) minmax(480px, 1.14fr);
+  gap: 64px;
+}
+
+.hero-aside {
+  min-height: 500px;
+  padding: 36px 40px 64px;
+}
+
+.aside-label {
+  margin-bottom: 44px;
+}
+
+.snapshot-row {
+  padding: 23px 0;
+}
+
+.snapshot-row strong {
+  min-width: 210px;
+  font-size: 16px;
+}
+
+.snapshot-row small {
+  font-size: 11px;
+}
+
+.hero-coordinate {
+  right: 28px;
+  bottom: 24px;
+}
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .hero {
+    grid-template-columns: minmax(0, .9fr) minmax(430px, 1.1fr);
+    gap: 44px;
+  }
+
+  .hero-aside {
+    padding-inline: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-aside {
+    min-height: 430px;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero-aside {
+    min-height: 0;
+    padding: 26px 22px 52px;
+  }
+
+  .snapshot-row {
+    padding: 19px 0;
+  }
+
+  .snapshot-row strong {
+    min-width: 0;
+    font-size: 14px;
+  }
+}
