@@ -158,3 +158,28 @@ themeToggle.addEventListener("click", () => applyTheme(root.dataset.theme === "d
 
 applyLocale(readStorage(localeKey) || "en");
 applyTheme(preferredTheme(), false);
+
+const sectionLinks = [...document.querySelectorAll('nav a[href^="#"]')];
+const sectionTargets = sectionLinks
+  .map((link) => document.querySelector(link.getAttribute("href")))
+  .filter(Boolean);
+
+function updateActiveSection(sectionId) {
+  sectionLinks.forEach((link) => {
+    const isActive = link.getAttribute("href") === `#${sectionId}`;
+    if (isActive) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+}
+
+function syncActiveSection() {
+  const marker = window.innerHeight * .34;
+  const current = sectionTargets.reduce((selected, section) => {
+    return section.getBoundingClientRect().top <= marker ? section : selected;
+  }, null);
+  if (current) updateActiveSection(current.id);
+}
+
+window.addEventListener("scroll", syncActiveSection, { passive: true });
+window.addEventListener("resize", syncActiveSection);
+syncActiveSection();
