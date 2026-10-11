@@ -831,3 +831,89 @@ h1 {
   border-radius: 50%;
   background: var(--lime);
 }
+
+/* Small-screen and control polish */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.button {
+  border-radius: 14px;
+  gap: 14px;
+  padding: 10px 12px 10px 16px;
+}
+
+.button-primary span[aria-hidden="true"] {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  background: color-mix(in srgb, var(--bg) 16%, transparent);
+  font-size: 15px;
+}
+
+.nav-cta {
+  border-radius: 12px;
+}
+
+.contact-link {
+  border-radius: 14px;
+}
+
+@media (max-width: 560px) {
+  .site-header {
+    gap: 8px 12px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+
+  .header-tools {
+    gap: 7px;
+  }
+
+  .language-select {
+    width: 82px;
+    max-width: 82px;
+    padding-inline: 8px;
+    font-size: 11px;
+  }
+
+  .theme-toggle {
+    width: 44px;
+  }
+
+  nav {
+    gap: 8px;
+    padding-top: 2px;
+    border-top: 1px solid color-mix(in srgb, var(--line) 70%, transparent);
+  }
+
+  nav a {
+    padding-inline: 4px;
+  }
+
+  .hero {
+    padding-top: 54px;
+  }
+
+  .hero-actions {
+    gap: 10px 12px;
+  }
+
+  .button-primary {
+    padding-inline-start: 14px;
+  }
+
+  .text-link {
+    padding-inline: 7px;
+  }
+}
