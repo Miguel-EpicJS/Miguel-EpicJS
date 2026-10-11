@@ -36,7 +36,6 @@ The portfolio includes English, Portuguese, Mandarin Chinese, Hindi, Spanish, Fr
 ## Featured projects
 
 - [RAGDiff](https://github.com/Miguel-EpicJS/ragdiff) — retrieval-regression detection with query-level evidence, fail-closed deployment policy, FastAPI, PostgreSQL/pgvector, OpenTelemetry, and Terraform.
-- [RAG Workbench](https://github.com/Miguel-EpicJS/rag-workbench) — evidence-first retrieval experiments with section-aware chunking, SQLite FTS5, hybrid retrieval, reranking, citation validation, FastAPI, and a browser UI.
 - [Ash CLI](https://github.com/Miguel-EpicJS/ash-cli) — local-first terminal AI assistant with Qwen, llama.cpp, streaming output, persistent sessions, command safety, observability, and a Rich TUI.
 - [JobApply](https://github.com/Miguel-EpicJS/jobapply) — local-first TUI for collecting roles and generating evidence-based, AI-tailored PDF resumes without automatic application submission.
 

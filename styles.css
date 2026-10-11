@@ -1286,3 +1286,87 @@ html[data-theme="dark"] .button-primary:hover {
   stroke-linejoin: round;
   stroke-width: 1.8;
 }
+
+/* Typography hierarchy */
+body {
+  font-size: 1.05rem;
+}
+
+nav,
+.language-select,
+.theme-toggle,
+.nav-cta,
+.text-link,
+.card-link {
+  font-size: 13px;
+}
+
+h1 {
+  font-size: clamp(64px, 7vw, 96px);
+}
+
+h2 {
+  font-size: clamp(40px, 5vw, 64px);
+}
+
+.lede {
+  font-size: clamp(1.1rem, 1.35vw, 1.25rem);
+}
+
+.section-note,
+.project-content p,
+.timeline-body p {
+  font-size: 15px;
+}
+
+.project-content h3 {
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+}
+
+.metric span {
+  font-size: 13px;
+}
+
+.capability h3 {
+  font-size: 18px;
+}
+
+.capability p,
+.fit-facts strong {
+  font-size: 14px;
+}
+
+@media (max-width: 560px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(48px, 14vw, 64px);
+  }
+
+  h2 {
+    font-size: clamp(38px, 10vw, 52px);
+  }
+
+  .lede {
+    font-size: 1.12rem;
+    line-height: 1.7;
+  }
+
+  .section-note,
+  .project-content p,
+  .timeline-body p {
+    font-size: 16px;
+  }
+
+  .project-content h3 {
+    font-size: 2.1rem;
+  }
+
+  .metric span,
+  .capability p,
+  .fit-facts strong {
+    font-size: 14px;
+  }
+}
