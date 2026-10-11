@@ -95,6 +95,7 @@ const root = document.documentElement;
 const languageSelect = document.getElementById("language-select");
 const themeToggle = document.getElementById("theme-toggle");
 const themeIcon = document.getElementById("theme-icon");
+const themeMeta = document.querySelector('meta[name="theme-color"]');
 
 function readStorage(key) {
   try { return localStorage.getItem(key); } catch { return null; }
@@ -142,7 +143,10 @@ function preferredTheme() {
 function applyTheme(theme, persist = true) {
   const selected = theme === "light" ? "light" : "dark";
   root.dataset.theme = selected;
-  themeIcon.textContent = selected === "dark" ? "☀" : "☾";
+  themeMeta?.setAttribute("content", selected === "dark" ? "#0b1118" : "#f7f8f4");
+  themeIcon.innerHTML = selected === "dark"
+    ? '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>'
+    : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.2A8.5 8.5 0 0 1 8.8 3.5 8.5 8.5 0 1 0 20.5 15.2Z"></path></svg>';
   const dictionary = translations[root.lang] || translations.en;
   const key = selected === "dark" ? "controls.switchToLight" : "controls.switchToDark";
   themeToggle.setAttribute("aria-label", dictionary[key] || translations.en[key]);
