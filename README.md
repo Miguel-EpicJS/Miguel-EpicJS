@@ -13,7 +13,7 @@ The portfolio includes English, Portuguese, Mandarin Chinese, Hindi, Spanish, Fr
 - Responsive layout reflows from the two-column desktop presentation to a single-column mobile layout without horizontal overflow.
 - Navigation remains keyboard-accessible on small screens, with a visible skip link, 48px interactive targets, clear focus rings, reduced-motion support, and descriptive labels for external links.
 - Dark/light themes preserve readable contrast and persist locally alongside the selected interface language.
-- Visual direction uses a minimal Swiss/editorial system: restrained surfaces, a responsive type scale, a single signal-blue accent, structured project storytelling, and reduced-motion-safe interaction states.
+- Visual direction uses a minimal Swiss/editorial system: restrained surfaces, a responsive type scale, a single warm terracotta signal accent, structured project storytelling, and reduced-motion-safe interaction states.
 
 ## Current focus
 

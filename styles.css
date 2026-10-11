@@ -1440,3 +1440,57 @@ h2 {
     font-size: 14px;
   }
 }
+
+/* Warm signal palette */
+:root {
+  --color-accent-warm: #b24e2a;
+  --color-accent-amber: #f0a16f;
+}
+
+html[data-theme="dark"] {
+  --lime: var(--color-accent-amber);
+}
+
+html[data-theme="light"] {
+  --lime: var(--color-accent-warm);
+}
+
+.button,
+.language-select,
+.theme-toggle,
+.nav-cta,
+.text-link,
+.card-link,
+.contact-link {
+  transition:
+    color 150ms ease-in-out,
+    background-color 150ms ease-in-out,
+    border-color 150ms ease-in-out,
+    transform 200ms ease-out;
+}
+
+.button:active,
+.nav-cta:active,
+.contact-link:active {
+  transform: translateY(1px) scale(.98);
+}
+
+.button-primary span[aria-hidden="true"] {
+  background: color-mix(in srgb, var(--bg) 18%, transparent);
+}
+
+.site-header nav a[aria-current="page"]::after {
+  background: var(--lime);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button,
+  .language-select,
+  .theme-toggle,
+  .nav-cta,
+  .text-link,
+  .card-link,
+  .contact-link {
+    transition: none;
+  }
+}
