@@ -1,45 +1,33 @@
-# Miguel Martinez
+# Miguel Martinez — Generative AI Engineer
 
-## AI Engineer building useful systems around LLMs
+Portfolio site for Miguel Martinez, a Brazil-based Generative AI Engineer focused on production LLM applications, RAG systems, evaluation, agents, backend APIs, and cloud delivery.
 
-AI Engineer at GSW Soluções Integradas. I design and build AI agents, retrieval workflows, and integrations that connect models to real tools and business data.
+Live site: <https://miguel-epicjs.github.io/Miguel-EpicJS/>
 
-My current focus:
+## Current focus
 
-- **AI agents:** tool calling, multi-step workflows, MCP, and orchestration
-- **RAG:** retrieval quality, vector stores, evaluation, and grounded generation
-- **Backend systems:** Python, TypeScript, Node.js, APIs, and PostgreSQL
-- **Local AI:** privacy-first inference with Qwen, llama.cpp, and Agno
-- **Delivery:** testing, observability, Docker, AWS, and pragmatic MVPs
+- **Generative AI:** LangChain, LangGraph, DeepAgents, MCP, RAG, agents, embeddings, reranking, structured output, prompt engineering, and evaluation
+- **Backend:** Python, FastAPI, TypeScript, Node.js, NestJS, REST APIs, WebSockets, PostgreSQL, and pgvector
+- **Cloud and operations:** AWS, Bedrock, S3, SQS, Glue, DynamoDB, ECS, Docker, Kubernetes, KEDA, CI/CD, Langfuse, and tracing
+- **Engineering delivery:** testing, security hardening, enterprise integrations, technical mentorship, documentation, and Agile delivery
 
-## Featured project
+## Experience
 
-### [RAG Workbench](https://github.com/Miguel-EpicJS/rag-workbench)
+- **Artificial Intelligence Engineer — Embraer** (July 2026 — Present)
+  - AI platform for aircraft maintenance and technical documentation
+  - PDF/SGML ingestion, RAG, pgvector retrieval, LangGraph/DeepAgents, AWS workloads, APIs, streaming, evaluation, and observability
+- **Artificial Intelligence Engineer — Chatvolt** (February 2025 — July 2026)
+  - Conversational AI agents, CRM/ERP integrations, MCP infrastructure, RAG, testing, and technical mentorship
+  - Reduced agent response time by 40% and achieved more than 95% generated-response reliability
+- **Software Engineer — Instituto Alpha Lumen** (January 2023 — December 2024)
+  - Web applications, REST APIs, Cypress end-to-end testing, Agile delivery, and performance improvements
 
-An inspectable workbench for chunking, retrieval, evaluation, and grounded generation. It makes
-the evidence behind a RAG answer visible before adding more advanced retrieval techniques.
+## Featured projects
 
-```text
-documents -> chunks -> retrieval -> evidence -> grounded answer
-```
-
-### [Ash CLI](https://github.com/Miguel-EpicJS/ash-cli)
-
-A local-first terminal AI assistant for developers. Ash combines Agno, Qwen, and llama.cpp with streaming output, persistent sessions, shell completions, command safety, and local usage metrics.
-
-```text
-local model -> agent -> terminal UI -> safe command workflow
-```
-
-## More about me
-
-- AI Engineer at GSW Soluções Integradas
-- Previously AI Engineer at Chatvolt
-- Built MCP infrastructure and enterprise integrations
-- Mentor and technical reference for AI agent development
-- Based in Sao Jose dos Campos, Brazil
-- Portuguese native, English C1
+- [RAGDiff](https://github.com/Miguel-EpicJS/ragdiff) — retrieval-regression detection with query-level evidence, fail-closed deployment policy, FastAPI, PostgreSQL/pgvector, OpenTelemetry, and Terraform.
+- [RAG Workbench](https://github.com/Miguel-EpicJS/rag-workbench) — evidence-first retrieval experiments with section-aware chunking, SQLite FTS5, hybrid retrieval, reranking, citation validation, FastAPI, and a browser UI.
+- [Ash CLI](https://github.com/Miguel-EpicJS/ash-cli) — local-first terminal AI assistant with Qwen, llama.cpp, streaming output, persistent sessions, command safety, observability, and a Rich TUI.
+- [JobApply](https://github.com/Miguel-EpicJS/jobapply) — local-first TUI for collecting roles and generating evidence-based, AI-tailored PDF resumes without automatic application submission.
 
 
-
-I write about RAG, AI agents, local LLMs, and the engineering decisions behind production systems.
+Based in São José dos Campos, Brazil. Portuguese native; English C1. Open to remote full-time, contract, and freelance opportunities. Brazilian ME CNPJ available for contractor engagements.
