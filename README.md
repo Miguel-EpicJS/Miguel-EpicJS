@@ -4,6 +4,10 @@ Portfolio site for Miguel Martinez, a Brazil-based Generative AI Engineer focuse
 
 Live site: <https://miguel-epicjs.github.io/Miguel-EpicJS/>
 
+## Interface languages
+
+The portfolio includes English, Portuguese, Mandarin Chinese, Hindi, Spanish, French, Arabic, Bengali, and Russian. The eight major-language choices follow a total-speaker ranking basis; Portuguese is included explicitly for the target market. Arabic uses right-to-left layout. Theme choice and language choice persist locally in the browser.
+
 ## Current focus
 
 - **Generative AI:** LangChain, LangGraph, DeepAgents, MCP, RAG, agents, embeddings, reranking, structured output, prompt engineering, and evaluation
