@@ -8,6 +8,12 @@ Live site: <https://miguel-epicjs.github.io/Miguel-EpicJS/>
 
 The portfolio includes English, Portuguese, Mandarin Chinese, Hindi, Spanish, French, Arabic, Bengali, and Russian. The eight major-language choices follow a total-speaker ranking basis; Portuguese is included explicitly for the target market. Arabic uses right-to-left layout. Theme choice and language choice persist locally in the browser.
 
+## UX and accessibility
+
+- Responsive layout reflows from the two-column desktop presentation to a single-column mobile layout without horizontal overflow.
+- Navigation remains keyboard-accessible on small screens, with a visible skip link, 48px interactive targets, clear focus rings, reduced-motion support, and descriptive labels for external links.
+- Dark/light themes preserve readable contrast and persist locally alongside the selected interface language.
+
 ## Current focus
 
 - **Generative AI:** LangChain, LangGraph, DeepAgents, MCP, RAG, agents, embeddings, reranking, structured output, prompt engineering, and evaluation

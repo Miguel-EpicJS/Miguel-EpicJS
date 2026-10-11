@@ -14,6 +14,7 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Miguel Martinez home"><span class="brand-mark">MM</span><span>Miguel Martinez</span></a>
     <div class="header-right">
@@ -41,7 +42,7 @@
     </div>
   </header>
 
-  <main id="top">
+  <main id="main-content" tabindex="-1">
     <section class="hero shell">
       <div class="hero-copy">
         <p class="eyebrow"><span class="pulse"></span><span data-i18n="hero.eyebrow">Generative AI Engineer · Brazil · Remote</span></p>
@@ -49,22 +50,23 @@
         <p class="lede" data-i18n="hero.lede">I build LLM applications, RAG pipelines, AI agents, and backend systems that make model behavior measurable, observable, and ready for real users.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#work" data-i18n="hero.work">See the work <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="https://www.linkedin.com/in/miguel-jn-martinez/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="https://github.com/Miguel-EpicJS" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/miguel-jn-martinez/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile (opens in a new tab)">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://github.com/Miguel-EpicJS" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in a new tab)">GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </div>
-      <div class="hero-aside" aria-label="Professional snapshot">
-        <div class="aside-label" data-i18n="snapshot.title">PROFESSIONAL SNAPSHOT</div>
+      <section class="hero-aside" aria-labelledby="snapshot-title">
+        <h2 id="snapshot-title" class="aside-label" data-i18n="snapshot.title">PROFESSIONAL SNAPSHOT</h2>
         <div class="snapshot-row"><span data-i18n="snapshot.roleLabel">Current role</span><strong>AI Engineer<br><small>Embraer</small></strong></div>
         <div class="snapshot-row"><span data-i18n="snapshot.stackLabel">Core stack</span><strong>Python · AWS<br><small>RAG · agents · APIs</small></strong></div>
         <div class="snapshot-row"><span data-i18n="snapshot.languagesLabel">Languages</span><strong><span data-i18n="snapshot.languages">Portuguese native</span><br><small data-i18n="snapshot.languagesEnglish">English C1</small></strong></div>
         <div class="snapshot-row"><span data-i18n="snapshot.engagementLabel">Engagement</span><strong><span data-i18n="snapshot.engagement">Remote worldwide</span><br><small data-i18n="snapshot.engagementType">Full-time or contractor</small></strong></div>
         <div class="hero-coordinate">23°10′S<br>45°53′W</div>
-      </div>
+      </section>
     </section>
 
     <section class="strip" aria-label="Technical focus">
-      <div class="shell strip-inner"><span data-i18n="strip.label">Currently focused on</span><div class="strip-items"><span>RAG &amp; evaluation</span><i>✦</i><span>AI agents</span><i>✦</i><span>Python backends</span><i>✦</i><span>Cloud delivery</span></div></div>
+      
+      <div class="shell strip-inner"><span data-i18n="strip.label">Currently focused on</span><div class="strip-items"><span>RAG &amp; evaluation</span><i aria-hidden="true">✦</i><span>AI agents</span><i aria-hidden="true">✦</i><span>Python backends</span><i aria-hidden="true">✦</i><span>Cloud delivery</span></div></div>
     </section>
 
     <section class="metrics shell" aria-label="Selected outcomes">
@@ -79,22 +81,22 @@
       <div class="projects-grid">
         <article class="project-card project-featured">
           <div class="project-top"><span class="project-number">01</span><span class="project-type" data-i18n="projects.ragdiff.type">Reliability &amp; evaluation</span></div>
-          <div class="project-content"><h3>RAGDiff <span class="arrow">↗</span></h3><p data-i18n="projects.ragdiff.description">A Python toolkit for detecting retrieval regressions before a knowledge-base or pipeline change reaches deployment. It compares versioned runs, reports query-level evidence, and applies a fail-closed policy when evaluation is incomplete or regresses.</p><div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL/pgvector</span><span>OpenTelemetry</span><span>Terraform</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/ragdiff" target="_blank" rel="noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
+          <div class="project-content"><h3>RAGDiff <span class="arrow" aria-hidden="true">↗</span></h3><p data-i18n="projects.ragdiff.description">A Python toolkit for detecting retrieval regressions before a knowledge-base or pipeline change reaches deployment. It compares versioned runs, reports query-level evidence, and applies a fail-closed policy when evaluation is incomplete or regresses.</p><div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL/pgvector</span><span>OpenTelemetry</span><span>Terraform</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/ragdiff" target="_blank" rel="noopener noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
           <div class="card-art art-rag" aria-hidden="true"><div class="art-line line-a"></div><div class="art-line line-b"></div><div class="art-node node-a"></div><div class="art-node node-b"></div><div class="art-node node-c"></div><span class="art-label">baseline → candidate → decision</span></div>
         </article>
         <article class="project-card">
           <div class="project-top"><span class="project-number">02</span><span class="project-type" data-i18n="projects.workbench.type">Inspectable RAG</span></div>
-          <div class="project-content"><h3>RAG Workbench <span class="arrow">↗</span></h3><p data-i18n="projects.workbench.description">An evidence-first workbench that keeps retrieved documents, sections, chunks, scores, and generated answers together. It supports lexical, dense, hybrid, and reranked experiments instead of treating retrieval quality as a black box.</p><div class="tags"><span>Python</span><span>SQLite FTS5</span><span>FastAPI</span><span>Hybrid retrieval</span><span>AWS</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/rag-workbench" target="_blank" rel="noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
+          <div class="project-content"><h3>RAG Workbench <span class="arrow" aria-hidden="true">↗</span></h3><p data-i18n="projects.workbench.description">An evidence-first workbench that keeps retrieved documents, sections, chunks, scores, and generated answers together. It supports lexical, dense, hybrid, and reranked experiments instead of treating retrieval quality as a black box.</p><div class="tags"><span>Python</span><span>SQLite FTS5</span><span>FastAPI</span><span>Hybrid retrieval</span><span>AWS</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/rag-workbench" target="_blank" rel="noopener noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
           <div class="card-art art-evidence" aria-hidden="true"><div class="evidence-panel"><span>retrieved evidence</span><i></i><i></i><i></i></div><div class="evidence-answer">grounded<br>answer</div></div>
         </article>
         <article class="project-card">
           <div class="project-top"><span class="project-number">03</span><span class="project-type" data-i18n="projects.ash.type">Local inference</span></div>
-          <div class="project-content"><h3>Ash CLI <span class="arrow">↗</span></h3><p data-i18n="projects.ash.description">A privacy-focused terminal assistant for developers. Local inference through Qwen and llama.cpp, streaming output, persistent sessions, command validation, usage telemetry, and a tested Rich TUI.</p><div class="tags"><span>Python 3.13+</span><span>Agno</span><span>Qwen</span><span>llama.cpp</span><span>Rich TUI</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/ash-cli" target="_blank" rel="noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
+          <div class="project-content"><h3>Ash CLI <span class="arrow" aria-hidden="true">↗</span></h3><p data-i18n="projects.ash.description">A privacy-focused terminal assistant for developers. Local inference through Qwen and llama.cpp, streaming output, persistent sessions, command validation, usage telemetry, and a tested Rich TUI.</p><div class="tags"><span>Python 3.13+</span><span>Agno</span><span>Qwen</span><span>llama.cpp</span><span>Rich TUI</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/ash-cli" target="_blank" rel="noopener noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
           <div class="card-art art-terminal" aria-hidden="true"><span class="terminal-prompt">$ ash --local</span><span class="terminal-cursor">_</span><div class="terminal-bars"><i></i><i></i><i></i></div></div>
         </article>
         <article class="project-card">
           <div class="project-top"><span class="project-number">04</span><span class="project-type" data-i18n="projects.jobapply.type">Developer tooling</span></div>
-          <div class="project-content"><h3>JobApply <span class="arrow">↗</span></h3><p data-i18n="projects.jobapply.description">A local-first TUI for collecting job descriptions and generating evidence-based, AI-tailored PDF resumes. Profile data, job descriptions, LaTeX, and generated files stay local; applications are never submitted automatically.</p><div class="tags"><span>Python</span><span>TUI</span><span>SQLite</span><span>LaTeX</span><span>GitHub data</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/jobapply" target="_blank" rel="noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
+          <div class="project-content"><h3>JobApply <span class="arrow" aria-hidden="true">↗</span></h3><p data-i18n="projects.jobapply.description">A local-first TUI for collecting job descriptions and generating evidence-based, AI-tailored PDF resumes. Profile data, job descriptions, LaTeX, and generated files stay local; applications are never submitted automatically.</p><div class="tags"><span>Python</span><span>TUI</span><span>SQLite</span><span>LaTeX</span><span>GitHub data</span></div><a class="card-link" href="https://github.com/Miguel-EpicJS/jobapply" target="_blank" rel="noopener noreferrer" data-i18n="projects.view">View repository <span aria-hidden="true">↗</span></a></div>
           <div class="card-art art-document" aria-hidden="true"><div class="doc-sheet"><span></span><span></span><span></span><span></span></div><div class="doc-stamp">LOCAL<br>FIRST</div></div>
         </article>
       </div>
@@ -121,7 +123,7 @@
 
     <section class="section section-fit"><div class="shell fit-grid"><div><p class="eyebrow" data-i18n="fit.eyebrow">04 / Working together</p><h2><span data-i18n="fit.title">Clear context.</span><br><span data-i18n="fit.titleEm"><em>Useful outcomes.</em></span></h2></div><div class="fit-copy"><p data-i18n="fit.body">I am based in São José dos Campos, Brazil, and work remotely. I am open to remote full-time, contract, or freelance roles and can operate through a Brazilian ME CNPJ for contractor engagements.</p><div class="fit-facts"><div><span data-i18n="fit.locationLabel">Location</span><strong>Brazil · Remote</strong></div><div><span data-i18n="fit.languagesLabel">Languages</span><strong>Portuguese native · English C1</strong></div><div><span data-i18n="fit.focusLabel">Focus</span><strong>AI engineering · FDE · AI platforms</strong></div><div><span data-i18n="fit.collaborationLabel">Collaboration</span><strong>Product · Engineering · enterprise teams</strong></div></div></div></div></section>
 
-    <section id="contact" class="contact shell"><p class="eyebrow" data-i18n="contact.eyebrow">05 / Start a conversation</p><h2><span data-i18n="contact.title">Building something where</span><br><span data-i18n="contact.titleEm"><em>reliability matters?</em></span></h2><div class="contact-actions"><a class="contact-link" href="mailto:migueljnm840@gmail.com">migueljnm840@gmail.com <span aria-hidden="true">↗</span></a><a class="contact-secondary" href="https://www.linkedin.com/in/miguel-jn-martinez/" target="_blank" rel="noreferrer" data-i18n="contact.linkedin">Connect on LinkedIn ↗</a></div></section>
+    <section id="contact" class="contact shell" aria-labelledby="contact-title"><p class="eyebrow" data-i18n="contact.eyebrow">05 / Start a conversation</p><h2 id="contact-title"><span data-i18n="contact.title">Building something where</span><br><span data-i18n="contact.titleEm"><em>reliability matters?</em></span></h2><div class="contact-actions"><a class="contact-link" href="mailto:migueljnm840@gmail.com">migueljnm840@gmail.com <span aria-hidden="true">↗</span></a><a class="contact-secondary" href="https://www.linkedin.com/in/miguel-jn-martinez/" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin">Connect on LinkedIn ↗</a></div></section>
   </main>
   <footer class="site-footer shell"><span>© 2026 Miguel Martinez</span><span data-i18n="footer.tagline">Generative AI · Backend systems · Brazil</span><a href="#top" data-i18n="footer.back">Back to top ↑</a></footer>
 </body>
